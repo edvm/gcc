@@ -1,0 +1,40 @@
+{
+  "readmeUrl": "https://raw.githubusercontent.com/cveinnt/cveinnt/master/README.md",
+  "title": "GCC - Galvez Computer Club",
+  "name": "John Doe",
+  "ascii": "qwe",
+  "social": {
+    "github": "github",
+    "linkedin": "linkedin"
+  },
+  "email": "contact@email.com",
+  "siteUrl": "https://gcc.ar",
+  "ps1_hostname": "gccbox",
+  "ps1_username": "visitor",
+  "repo": "https://github.com/edvm/gcc",
+  "resume_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Resume.pdf",
+  "donate_urls": {
+    "paypal": "https://paypal.me/cveinnt",
+    "patreon": "https://patreon.com/cveinnt"
+  },
+  "colors": {
+    "dark": {
+      "background": "#E5E9F0",
+      "foreground": "#2E3440",
+      "yellow": "#5E81AC",
+      "green": "#A3BE8C",
+      "gray": "#88C0D0",
+      "blue": "#EBCB8B",
+      "red": "#BF616A"
+    },
+    "light": {
+      "background": "#2E3440",
+      "foreground": "#E5E9F0",
+      "yellow": "#5E81AC",
+      "green": "#A3BE8C",
+      "gray": "#88C0D0",
+      "blue": "#EBCB8B",
+      "red": "#BF616A"
+    }
+  }
+}
