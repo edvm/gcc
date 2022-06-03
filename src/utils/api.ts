@@ -28,3 +28,7 @@ export const getQuote = async () => {
     quote: `“${data.content}” — ${data.author}`,
   };
 };
+
+export const getNextMeet = async () => {
+  return 'Aun no tenemos fecha para la proxima reunion...\n';
+}

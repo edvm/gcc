@@ -162,8 +162,8 @@ GG:::::::::::::::G   CC:::::::::::::::C  CC:::::::::::::::C
 
 >>> Galvez Computer Club <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.siteUrl}" target="_blank">[gcc.ar]</a></u>
 
-Escribe 'nextmeet' para ver la fecha, lugar y hora de la prox. reunion 
-Escribe 'help' para ver la lista de comandos disponibles 
-Escribe 'repo' o click en <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">aqui</a></u> para ir al repositorio en Github.
+Type 'nextmeet' to see next meet (location and hour)
+Type 'help' to see available commands 
+Type 'repo' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">here</a></u> to go to Github repository 
 `;
 };
