@@ -30,12 +30,13 @@ export const repo = async (args: string[]): Promise<string> => {
 
 // About
 export const about = async (args: string[]): Promise<string> => {
-  return `Hi, I am ${config.name}. 
-Welcome to my website!
-More about me:
+  return `Hi, we are GCC (Galvez Computer Club), not the compiler ;)
+Welcome to our website!
+More about us:
+'nextmeet' - where'll be our next meet =).
+'readme' - if you are new here, start here =).
 'sumfetch' - short summary.
-'resume' - my latest resume.
-'readme' - my github readme.`;
+`;
 };
 
 export const resume = async (args: string[]): Promise<string> => {
@@ -44,19 +45,19 @@ export const resume = async (args: string[]): Promise<string> => {
 };
 
 // Donate
-export const donate = async (args: string[]): Promise<string> => {
-  return `thank you for your interest. 
-here are the ways you can support my work:
-- <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.paypal}" target="_blank">paypal</a></u>
-- <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.patreon}" target="_blank">patreon</a></u>
-`;
-};
+// export const donate = async (args: string[]): Promise<string> => {
+//   return `thank you for your interest. 
+// here are the ways you can support my work:
+// - <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.paypal}" target="_blank">paypal</a></u>
+// - <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.patreon}" target="_blank">patreon</a></u>
+// `;
+// };
 
 // Contact
-export const email = async (args: string[]): Promise<string> => {
-  window.open(`mailto:${config.email}`);
-  return `Opening mailto:${config.email}...`;
-};
+// export const email = async (args: string[]): Promise<string> => {
+//   window.open(`mailto:${config.email}`);
+//   return `Opening mailto:${config.email}...`;
+// };
 
 export const github = async (args: string[]): Promise<string> => {
   window.open(`https://github.com/${config.social.github}/`);
@@ -64,11 +65,11 @@ export const github = async (args: string[]): Promise<string> => {
   return 'Opening github...';
 };
 
-export const linkedin = async (args: string[]): Promise<string> => {
-  window.open(`https://www.linkedin.com/in/${config.social.linkedin}/`);
+// export const linkedin = async (args: string[]): Promise<string> => {
+//   window.open(`https://www.linkedin.com/in/${config.social.linkedin}/`);
 
-  return 'Opening linkedin...';
-};
+//   return 'Opening linkedin...';
+// };
 
 // Search
 export const google = async (args: string[]): Promise<string> => {
@@ -109,8 +110,7 @@ directories`;
 };
 
 export const cd = async (args: string[]): Promise<string> => {
-  return `unfortunately, i cannot afford more directories.
-if you want to help, you can type 'donate'.`;
+  return 'Single directory file system =(';
 };
 
 export const date = async (args: string[]): Promise<string> => {
@@ -163,6 +163,7 @@ GG:::::::::::::::G   CC:::::::::::::::C  CC:::::::::::::::C
 >>> Galvez Computer Club <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.siteUrl}" target="_blank">[gcc.ar]</a></u>
 
 Type 'nextmeet' to see next meet (location and hour)
+Type 'readme' if you are new or just found the group
 Type 'help' to see available commands 
 Type 'repo' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">here</a></u> to go to Github repository 
 `;

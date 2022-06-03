@@ -1,15 +1,15 @@
 {
-  "readmeUrl": "https://raw.githubusercontent.com/cveinnt/cveinnt/master/README.md",
+  "readmeUrl": "https://raw.githubusercontent.com/edvm/gcc/main/README.md",
   "title": "GCC - Galvez Computer Club",
-  "name": "John Doe",
-  "ascii": "qwe",
+  "name": "GCC - Galvez Computer Club",
+  "ascii": "cveinnt",
   "social": {
-    "github": "github",
+    "github": "edvm/gcc",
     "linkedin": "linkedin"
   },
-  "email": "contact@email.com",
+  "email": "contact@gcc.ar",
   "siteUrl": "https://gcc.ar",
-  "ps1_hostname": "gccbox",
+  "ps1_hostname": "gcc",
   "ps1_username": "visitor",
   "repo": "https://github.com/edvm/gcc",
   "resume_url": "https://https://github.com/edvm/gcc",
