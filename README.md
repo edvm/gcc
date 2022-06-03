@@ -1,4 +1,4 @@
-# [💻 GCC - Galvez Computer Club](https://gcc.vercel.app)
+# [💻 GCC - Galvez Computer Club](https://gcc.ar)
 
 Grupo de Gálvez (Santa Fe) interesados en:
 
