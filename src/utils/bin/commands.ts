@@ -138,8 +138,31 @@ export const sudo = async (args?: string[]): Promise<string> => {
   return `Permission denied: with little power comes... no responsibility? `;
 };
 
+export const hacklab = (args?: string[]): string => {
+  return `
+  Que es un Hacklab?
+  ------------------
+  Un Hacklab es un espacio de trabajo colaborativo en el que se fomenta el aprendizaje y 
+  el desarrollo de habilidades técnicas en el campo de la tecnología y la informática. 
+  Los Hacklabs también suelen ser lugares donde se llevan a cabo actividades como talleres, charlas, hackatones 
+  y otras actividades relacionadas con la tecnología. Suelen ser lugares abiertos y colaborativos en los que se 
+  fomenta la participación de todos y se comparten conocimientos y experiencias. 
+
+  Objetivos del Galvez Computer Club / GCC
+  ----------------------------------------
+  - Proporcionar un espacio de trabajo colaborativo para aprender y desarrollar habilidades técnicas relacionadas
+    con la tecnología y la informática.
+  - Organizar talleres y charlas para compartir conocimientos y experiencias con otros miembros de la comunidad.
+  - Promover la participación activa y el aprendizaje por el descubrimiento, a través de la realización de proyectos prácticos.
+  - Fomentar la colaboración y el trabajo en equipo en el desarrollo de proyectos tecnológicos.
+  - Ayudar a crear una comunidad activa y unida de personas interesadas en la tecnología y la informática en la ciudad.
+
+  `;
+};
+
 // Banner
 export const banner = (args?: string[]): string => {
+
   return `
                                                               
   GGGGGGGGGGGGG        CCCCCCCCCCCCC       CCCCCCCCCCCCC
@@ -162,9 +185,10 @@ GG:::::::::::::::G   CC:::::::::::::::C  CC:::::::::::::::C
 
 >>> Galvez Computer Club <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.siteUrl}" target="_blank">[gcc.ar]</a></u>
 
-Type 'nextmeet' to see next meet (location and hour)
-Type 'readme' if you are new or just found the group
-Type 'help' to see available commands 
-Type 'repo' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">here</a></u> to go to Github repository 
+${hacklab()}
+
+Para ver una lista de los comandos que puedes ingresar escribe:
+  help
+
 `;
 };
